@@ -1,0 +1,13 @@
+﻿How to deploy the Addin for SSMS 2014
+1. Copy the RF.Ssms.Plugin.SQL2014.AddIn to below path (2 choose 1)
+	A: One place for all Microsoft Addin project
+		Win7: C:\ProgramData\Microsoft\MSEnvShared\AddIns
+		XP: C:\Documents and Settings\All Users\Application Data\MSEnvShared\AddIns
+ or B: Corresponding path of the SSMS
+		SSMS 2014: [CommonApplicationData] + \Microsoft\SQL Server Management Studio\12.0\Addins
+2. Update the RF.Ssms.Plugin.SQL2014.AddIn node <Assembly> to the correct path of RF.Ssms.Plugin.SQL2014.dll
+----------------------------------------------------------------------------------------------------------------------------------
+How to debug the Addin for SSMS 2014
+1. Open [RF.Ssms.Plugin.SQL2014] project properties
+2. Choose to Debug tab
+3. Set the "Start external program" with path "C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe" 
