@@ -127,7 +127,7 @@ namespace RF.Ssms.Plugin.Common
                                  System.Reflection.Assembly.GetExecutingAssembly().Location,
                                  typeof(SQL2014.WinformHost).FullName, // Should be use Windows Forms control
                                  "RF Wpf User Control",
-                                 "{BCDD198E-02A2-42D7-AE75-E4ECFB0E5686}",
+                                 "{F198702E-02A2-42D7-AE75-E4ECFB0E5686}",
                                  ref myControl
                         );
                         //var _wpfToolWindow = myControl as WinformHost;
